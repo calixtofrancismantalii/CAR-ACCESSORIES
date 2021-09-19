@@ -1,0 +1,662 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #27231c;
+    font-size: 15px;
+    color: white;
+/*    font-family: 'Abhaya Libre';*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+section{
+    margin-bottom: 250px;
+}
+.column{
+    display: flex;
+    align-items: center;
+    height: 553px; 
+}
+.column > div{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+.text p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.text{
+    color: black;
+}
+.text h6{
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    padding: 30px 0px;
+}
+.service-title{
+    font-size: 2em;
+}
+.text-wrapper button{
+    padding: 20px 40px;
+    background-color: red;
+    outline: none;
+    border: solid 2px red;
+    margin-top: 40px;
+    color: yellow;
+    font-weight: bold;
+}
+.text-wrapper button:hover{
+    cursor: pointer;
+    background-color: #e20000;
+    color: yellow;
+    transition: 0.4s;
+}
+.checked{
+    color: #ffca00;
+}
+
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(/images/hero.for.services.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    min-height: 550px;
+}
+nav{
+	background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+#ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/*SECTION-TWO*/
+#section-two{
+    margin-top: 60px;
+}
+#section-two-image{
+    background-image: url(/images/services1_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: -90px;
+    width: 85%;
+    height: inherit;
+}
+#section-two .text-wrapper{
+    background-color: white;
+    margin: 50px 0px;
+    margin-right: 115px;
+    padding: 50px;
+}
+#service-makeup-text-line{
+    margin-right: -100px!important;
+}
+
+
+
+/*SECTION-THREE*/
+#section-three-image{
+    background-image: url(/images/services-section-three.image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-left: -90px;
+    width: 85%;
+    height: inherit;
+    z-index: -1;
+}
+#service-hairstyling-text-line{
+    margin-left: -100px!important;
+}
+#section-three .text-wrapper{
+    background-color: white;
+    margin: 50px 0px;
+    margin-left: 115px;
+    padding: 50px;
+}
+#section-three .text-wrapper h1{
+    text-align: right;
+}
+
+
+
+/*SECTION-FOUR*/
+#section-four-image{
+    background-image: url(/images/services-section-four.image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-right: -90px;
+    width: 85%;
+    height: inherit;
+}
+#section-four .text-wrapper{
+    background-color: red;
+    background-color: white;
+    margin: 50px 0px;
+    margin-right: 115px;
+    padding: 50px;
+}
+#service-bridalmakeup-text-line{
+    margin-right: -100px!important;
+}
+
+
+
+/*SECTION-FOUR*/
+#section-five{
+    margin-bottom: 190px;
+}
+#section-five-image{
+    background-image: url(/images/services-section-five.image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-left: -90px;
+    width: 85%;
+    height: inherit;
+    z-index: -1;
+}
+#section-five .text-wrapper{
+    background-color: red;
+    background-color: white;
+    margin: 50px 0px;
+    margin-left: 115px;
+    padding: 50px;
+    z-index: 1;
+}
+#section-five .text-wrapper h1{
+    text-align: right;
+}
+#service-haircolor-text-line{
+    margin-left: -100px!important;
+}
+
+
+
+/*FOOTER*/
+.footer-background-image{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer > div:nth-child(odd){
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+footer > div{
+    padding: 75px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+	border: solid 2px red;
+	color: yellow;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 0, 0, 1);
+    color: yellow;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+/*MOBILE SCREEN*/
+@media screen and (max-width: 481px){
+    
+    
+    /*Univsersal Style*/
+    section{
+        margin-bottom: 0px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column!important;
+        height: 653px!important; 
+    }
+    .column > div{
+/*        background-color: aqua;*/
+        width: 100%;
+    }
+    
+    
+     /*HEADER with NAVBAR = HERO*/
+    header{
+        min-height: 350px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .titlelogo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    nav .titlelogo img{
+        width: 170px;
+    }
+    nav .titlelogo button{
+        display: block;
+        padding: 9px 14px;
+        font-size: 20px;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }
+    nav #ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        margin-top: 80px;
+        background-color: #27231c;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+    nav #ul li{
+        border-top: solid 1px white;
+    }
+    
+     /*INTRO*/
+    .intro h1{
+        font-size: 38px;
+    }
+    
+    /*SECTION-TWO*/
+    #section-two-image{
+        background-size: cover;
+        height: 950px!important;
+        width: 100%;
+        background-color: aqua;
+        margin: 0px;
+    }
+    #section-two .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #service-makeup-text-line{
+        margin-right: 0px!important;
+    }
+    
+    /*SECTION-THREE*/
+    #section-three .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-three-image{
+        background-image: url(/images/services-section-three.image.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-three .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-three .text-wrapper h1{
+        text-align: center;
+    }
+    #service-hairstyling-text-line{
+        margin-right: 0px!important;
+    }
+    
+    /*SECTION-FOUR*/
+    #section-four-image{
+        background-size: cover;
+        height: 950px!important;
+        width: 100%;
+        margin: 0px;
+    }
+    #section-four .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #service-bridalmakeup-text-line{
+        margin-right: 0px!important;
+    }
+    
+    
+    /*SECTION-FIVE*/
+    #section-five .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-five-image{
+/*        background-image: url(../images/services-section-five.image.jpg);*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-five .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-five .text-wrapper h1{
+        text-align: center;
+    }
+    #service-service-haircolor-text-line-text-line{
+        margin-right: 0px!important;
+    }
+    
+
+     /*FOOTER*/
+    footer h2{
+        font-size: 38px;
+    }
+    footer > div{
+        width: 100%!important;
+        padding: 30px;
+    }
+    footer #copyright{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #copyright > div{
+        padding: 10px 0px;
+    }
+    
+    
+    
+    
+    
+}
+/*TABLET VIEW*/
+@media screen and (max-width: 768px){
+    
+    /*Univsersal Style*/
+    section{
+        margin-bottom: 0px;
+    }
+    .column{
+        display: flex;
+        flex-direction: column!important;
+        height: 953px; 
+    }
+    .column > div{
+/*        background-color: aqua;*/
+        width: 100%;
+    }
+    
+    
+    /*SECTION-TWO*/
+    #section-two-image{
+        background-size: cover;
+        height: 950px!important;
+        width: 100%;
+        background-color: aqua;
+        margin: 0px;
+    }
+    #section-two .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #service-makeup-text-line{
+        margin-right: 0px!important;
+    }
+    
+    /*SECTION-THREE*/
+    #section-three .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-three-image{
+/*        background-image: url(/images/services-section-three.image.png);*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-three .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-three .text-wrapper h1{
+        text-align: center;
+    }
+    #service-hairstyling-text-line{
+        margin-right: 0px!important;
+    }
+    
+    /*SECTION-FOUR*/
+    #section-four-image{
+        background-size: cover;
+        height: 950px!important;
+        width: 100%;
+        margin: 0px;
+    }
+    #section-four .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #service-bridalmakeup-text-line{
+        margin-right: 0px!important;
+    }
+    
+    
+    /*SECTION-FIVE*/
+    #section-five .column{
+        display: flex;
+        flex-direction: column-reverse!important;
+    }
+    #section-five-image{
+/*        background-image: url(/images/services-section-five.image.png);*/
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin-left: 0px;
+        width: 100%;
+        height: inherit;
+        z-index: -1;
+    }
+    #section-five .text-wrapper{
+        background-color: white;
+        margin: 0px 0px;
+        margin-right: 115px;
+        padding: 60px 30px;
+        width: 100%;
+        text-align: center;
+    }
+    #section-five .text-wrapper h1{
+        text-align: center;
+    }
+    #service-service-haircolor-text-line-text-line{
+        margin-right: 0px!important;
+    }
+    
+
+     /*FOOTER*/
+    footer h2{
+        font-size: 38px;
+    }
+    footer > div{
+        width: 100%!important;
+        padding: 30px;
+    }
+    
+    
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        align-items: center;
+    }
+    #copyright > div{
+        padding: 10px 50px;
+    } 
+    
+}

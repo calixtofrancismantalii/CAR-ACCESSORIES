@@ -1,0 +1,464 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #27231c;
+    font-size: 15px;
+    color: white;
+/*    font-family: 'Abhaya Libre';*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+.column{
+    display: flex;
+}
+.column > div{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+section{
+      margin-top: 60px;
+}
+
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(/images/hero.for.about.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+nav #ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/*SECTION-TWO*/
+#section-two{
+/*    background-color: indianred;*/
+    
+    
+}
+#section-two-image{
+    background-image: url(../images/about-me-image.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+}
+.text{
+    background-color: white;
+    color: black;
+    padding: 80px;
+    min-height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.paragraphs{
+    display: flex;
+    padding: 50px 0px;
+}
+.paragraphs > div{
+    width: 50%;
+    margin: 0px 10px;
+}
+.companylogo{
+    padding: 50px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+/*SECTION-THREE*/
+#section-three{
+    padding: 80px 0px;
+}
+#section-three .text-wrapper{
+    padding: 0px 150px;
+    text-align: center;
+}
+#certificates{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 100px 0px;
+}
+
+
+
+/*FOOTER*/
+.footer-background-image{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer > div:nth-child(odd){
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+footer > div{
+    padding: 75px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+	border: solid 2px red;
+	color: yellow;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 0, 0, 1);
+    color: yellow;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+/*MOBILE SCREEN*/
+@media screen and (max-width: 481px){
+    
+    /*UNIVERSAL-STYLE*/
+    .column{
+        display: flex;
+        flex-direction: column;
+    }
+    .column > div{
+        width: 100%;
+    }
+    .text{
+        padding: 60px 30px;
+        text-align: center;
+    }
+    .text h2, .about h2, #what-they-say h2, footer h2{
+/*        background-color: aquamarine;*/
+        font-size: 38px;
+    }
+    .services-line{
+        margin: auto;
+    }
+    
+    
+    /*HEADER with NAVBAR = HERO*/
+    header{
+        min-height: 350px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .titlelogo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    nav .titlelogo img{
+        width: 170px;
+    }
+    nav .titlelogo button{
+        display: block;
+        padding: 9px 14px;
+        font-size: 20px;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }
+    nav #ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        margin-top: 80px;
+        background-color: #27231c;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+    nav #ul li{
+        border-top: solid 1px white;
+    }
+    
+    
+    /*INTRO*/
+    .intro h1{
+        font-size: 38px!important;
+    }
+    
+    
+    /*SECTION-TWO*/
+    #section-two-image{
+        background-position: center;
+        background-size: cover;
+        height: 700px;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+    }
+    .paragraphs > div{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    .companylogo{
+        display: flex;
+        flex-direction: column;
+    }
+    .companylogo > div{
+        padding: 50px 0px;
+    }
+    .companylogo img{
+        width: 50%;
+    }
+    
+    /*SECTION-THREE*/
+    #section-three{
+        padding: 0px 0px;
+    }
+    #section-three .text-wrapper{
+        padding: 0px 30px!important;
+    }
+    #certificates{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        
+        padding: 50px 30px!important;
+    }
+    #certificates > div{
+        padding-bottom: 50px;
+    }
+    #certificates img{
+        width: 80%;
+        margin: auto;
+    }
+    
+    /*FOOTER*/
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer #copyright > div{
+        padding: 10px 0px!important;
+    }
+    
+}
+/*TABLET SCREEN*/
+@media screen and (max-width: 768px){
+    
+    /*SECTION-TWO*/
+    .text{
+        padding: 30px;
+        text-align: center;
+    }
+    #section-two .text-wrapper{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .paragraphs > div{
+        margin: 20px 0px;
+        width: 100%;
+    }
+  
+    
+    /*SECTION-THREE*/
+    #section-three .text-wrapper{
+        padding: 95px;
+    }
+    #certificates{
+        display: flex;
+        text-align: center;
+        padding: 0px 0px;
+        
+    }
+    #certificates > div img{
+        width: 88%;
+    }
+
+  
+}
+/*LARGER TABLET*/
+@media screen and (max-width: 1279px){
+    
+    /*SECTION-TWO*/
+    .text{
+        padding: 30px;
+        text-align: center;
+    }
+    #section-two .text-wrapper{
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .paragraphs{
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+    }
+    .paragraphs > div{
+        margin: 20px 0px;
+        width: 100%;
+    }
+    
+    /*SECTION-THREE*/
+    #section-three .text-wrapper{
+        padding: 95px;
+    }
+    #certificates{
+        display: flex;
+        text-align: center;
+        padding: 0px 0px;
+        
+    }
+    #certificates > div img{
+        width: 88%;
+    }
+        
+    
+}

@@ -1,0 +1,392 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #27231c;
+    font-size: 15px;
+    color: white;
+/*    font-family: 'Abhaya Libre';*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1220px;
+    margin: auto;
+}
+.column{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.text-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+section{
+      margin-top: 60px;
+}
+
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(/images/hero.for.pricing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 550px;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+nav #ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+.intro p{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+
+
+
+/*SECTION-TWO*/
+#section-two{
+    padding: 0px;
+    margin-bottom: 0px;
+}
+.services-pricing{
+    background-color: white;
+    color: black;
+    width: 65%;
+    padding: 80px 90px;
+}
+#text-button{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#text-button > button{
+    background-color: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+}
+#text-button button > img{
+    
+    width: 80px;
+}
+
+
+
+
+
+.text{
+    width: 35%;
+    padding: 80px;
+    text-align: center;
+}
+.col-1-price-list span, .col-2-price-list span{
+    color: red;
+    padding: 20px 0px;
+    display: block;
+    font-weight: bold;
+}
+.col-1-price-list > div, .col-2-price-list > div{
+    padding: 30px 0px;
+}
+
+
+
+/*SECTION-THREE*/
+#section-three{
+    padding-bottom: 100px;
+}
+#section-three .intro{
+    text-align: center;
+    padding: 0px 180px;
+    height: 40vh;
+}
+#section-three p{
+    padding: 0px;
+    margin: 0px;
+}
+.question-column{
+    padding: 0px 80px;
+}
+.question-column > div:not(.bottom-line-question){
+    padding: 55px 0px;
+}
+.question-column span{
+    font-size: 24px;
+    padding-bottom: 30px;
+    display: block;
+}
+
+
+
+/*FOOTER*/
+.footer-background-image{
+    background-image: url(../images/footer.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+footer > div:nth-child(odd){
+    text-align: center;
+    width: 73%;
+    margin: auto;
+}
+footer > div{
+    padding: 75px 0px;
+}
+footer p{
+    padding: 30px 0px;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: #ff4373;
+    color: white;
+    transition: 0.4s;
+}
+footer #copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    border: solid 2px #ff4373;
+    margin-top: 40px;
+    color: #ff4373;
+    font-weight: bold;
+	border: solid 2px red;
+	color: yellow;
+}
+footer button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 0, 0, 1);
+    color: yellow;
+    transition: 0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*MOBILE SCREEN*/
+@media screen and (max-width: 481px){
+    
+    
+    
+    /*HEADER with NAVBAR = HERO*/
+    header{
+        min-height: 350px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+    nav .titlelogo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    nav .titlelogo img{
+        width: 170px;
+    }
+    nav .titlelogo button{
+        display: block;
+        padding: 9px 14px;
+        font-size: 20px;
+        outline: none;
+        border: none;
+        border-radius: 2px;
+    }
+    nav #ul{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        margin-top: 80px;
+        background-color: #27231c;
+        height: 0px;
+        overflow: hidden;
+        transition: 0.4s;
+    }
+    nav #ul li{
+        border-top: solid 1px white;
+    }
+    
+    
+    
+    /*INTRO*/
+    .intro h1{
+        font-size: 38px!important;
+    }
+    
+    
+    
+    /*SECTION-TWO*/
+    #section-two .column{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .services-pricing{
+        width: 100%;
+        padding: 80px 30px;
+    }
+    #text-button{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .col-1-price-list, .col-2-price-list{
+        text-align: center;
+    }
+    .text{
+        width: 100%;
+        padding: 0px 30px;
+        padding-bottom: 100px;
+    }
+    
+    
+    
+    /*SECTION-THREE*/
+    #section-three{
+        padding: 30px 0px;
+    }
+    #section-three .intro{
+        width: 100%;
+        padding: 30px;
+    }
+    #section-three .column{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    #section-three .question-column{
+        padding: 30px;
+    }
+    .question-column > div:not(.bottom-line-question){
+        padding: 40px 0px;
+        border-bottom: solid 1px #ababab;
+    }
+    .bottom-line-question{
+        display: none;
+    }
+    
+    
+    
+    /*FOOTER*/
+    footer #copyright{
+        padding: 60px 0px;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    footer #copyright > div{
+        padding: 10px 0px!important;
+    }
+    
+}

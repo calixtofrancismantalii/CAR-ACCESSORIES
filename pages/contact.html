@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content="Makeup Artist Website"/>
+        <meta name="keywords" content="Makeup artist, Artist"/>
+        <meta name="author" content="Calixto Mantal"/>
+        <title>Rann-S MFG CORP.</title>
+        <link rel="icon" href="../images/rann_logo.jpg"/>
+        <link rel="stylesheet" type="text/css" href="/styles/contact.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <nav>
+                    <div class="titlelogo">
+                        <div><img src="/images/titlelogo.png" width="190px" alt="Makeup Artist"></div>
+                        <div><button type="button" onclick="showMenu()">&#9776;</button></div>
+                    </div>
+                    <ul id="ul">
+                        <li><a href="/index.html">Home</a></li>
+                        <li><a href="/pages/services.html">Services</a></li>
+                        <li><a href="/pages/about.html">About</a></li>
+                        <li><a href="/pages/pricing.html">Pricing</a></li>
+                        <li><a href="/pages/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="intro">
+                    <div>
+                        <h6>Contact</h6>
+                        <div id="intro-text-line" style="border: solid 1px red; width: 150px; margin: auto;"></div>
+                        <h1>Contact Us</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus.</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+        <div class="container">
+            <section>
+                <div class="column">
+                    <div class="contact-form">
+                        <form>
+                            <h2>HAVE QUERIES?</h2>
+                            <div id="section-two-text-line" style="border: solid 1px red; width: 150px; margin: 40px 0px"></div>
+                            <input type="text" placeholder="Your Name"> 
+                            <input type="number" placeholder="Your Number"/>
+                            <input list="bridal-makeup" placeholder="Service">
+                            <datalist id="bridal-makeup">
+                                <option value="Bridal Makeup"></option>
+                                <option value="Photography Makeup"></option>
+                                <option value="Occasional Makeup"></option>
+                                <option value="Hair Styling"></option>
+                                <option value="Others"></option>
+                            </datalist>
+                            <textarea placeholder="Your Message"></textarea>
+                            <button>SEND MESSAGE</button>
+                        </form>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-info-wrapper">
+                            <div>
+                                <h2>CALL ME</h2>
+                                <div id="section-two-text-line" style="border: solid 1px red; width: 150px; margin-top: 30px; margin-bottom: 15px"></div>
+                                <span>0908-810-8772</span>
+                            </div>
+                            <div>
+                                <h2>MAIL ME</h2>
+                                <div id="section-two-text-line" style="border: solid 1px red; width: 150px; margin-top: 30px; margin-bottom: 15px"></div>
+                                <span>rannscorp79@gmail.com</span>
+                            </div>
+                            <div>
+                                <h2>ADDRESS</h2>
+                                <div id="section-two-text-line" style="border: solid 1px red; width: 150px; margin-top: 30px; margin-bottom: 15px"></div>
+                                <span>718 Pampanga St., Gagalangin Tondo Manila, Philippines</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        
+        <section>
+<!--            <div id="mapa"></div>-->
+            <div id="makeupArtist"></div>
+        </section>
+        
+        <div class="footer-background-image">
+            <div class="container">
+                <footer>
+                    <div>
+                        <h2>MAKE YOUR CAR LAST LONGER</h2>
+                        <div id="get-discount-line" style="border: solid 1px red; width: 150px; margin: auto;"></div>
+                        <p>Ut rutrum scelerisque tortor, ac tempor tortor feugiat vitae. Etiam varius erat at tristique tristique. Maecenas convallis, nisi at iaculis scelerisque, arcu leo viverra mauris, quis semper nisi nisi ut tellus.</p>
+                        <button>CALL NOW: 123-456-789</button>
+                    </div>
+                    <div id="copyright">
+                        <div><span>Copyright © 2020 Rann-S MFG CORP.</span></div>
+                        <div><span>Powered by Rann-S MFG CORP.</span></div>
+                    </div>
+                </footer>
+            </div> 
+        </div>
+        <script src="/js/contact.js"></script>        
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0wKMDF3jsacNwQLeyW6OFTw9h1Xsn7zg&callback=myMap"></script>
+    </body>
+</html>
