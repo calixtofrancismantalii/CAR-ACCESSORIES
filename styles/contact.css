@@ -173,17 +173,17 @@ textarea{
 }
 button{
     padding: 20px 40px;
-    background-color: inherit;
+    background-color: red;
     outline: none;
-    border: solid 2px #ff4373;
+    border: solid 2px red;
     margin-top: 20px;
-    color: #ff4373;
+    color: yellow;
     font-weight: bold;
 }
 button:hover{
     cursor: pointer;
-    background-color: #ff4373;
-    color: white;
+    background-color: rgba(226, 0, 0, 1);
+    color: yellow;
     transition: 0.4s;
 }
 
