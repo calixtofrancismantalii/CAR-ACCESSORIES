@@ -82,18 +82,18 @@ p{
 
 /*HEADER with NAVBAR = HERO*/
 header{
-    background-image: url(images/car_hero.jpg);
+    background-image: url(images/car_hero.1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     min-height: 650px;
 }
 nav{
-	background-color: rgba(0, 0, 0, 0.7);
+	background-color: #05050558;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0px;
+    padding: 10px 0px;
     flex-wrap: wrap;
 }
 nav button{
@@ -104,12 +104,14 @@ nav button{
     display: flex;
 }
 li > a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     display: block;
     padding: 20px;
     font-family: 'Arial';
+    font-weight: bold;
     letter-spacing: 1px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 
 
@@ -130,18 +132,20 @@ li > a{
 .intro h6{
     font-size: 150%;
     font-weight: normal;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 .intro h1{
     font-size: 500%;
     font-weight: normal;
     padding: 20px 0px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
 }
 .intro button{
     padding: 20px 40px;
-    background-color: red;
+    background-color: rgb(255, 255, 255);
     outline: none;
-    border: solid 2px rgba(226, 0, 0, 1);
-	color: #fef002;
+    border: solid 2px rgb(0, 0, 0);
+	color: #000000;
     margin-top: 40px;
     font-weight: bold;
 }
@@ -156,6 +160,7 @@ li > a{
 
 /*CONTACT-LINKS*/
 .contact-links{
+    background-color: #000000;
     display: flex;
     flex-wrap: wrap;
     padding: 15px 0px;
@@ -189,12 +194,17 @@ li > a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 #about-me-wraper .artist{
-    background-image:  url(images/about-me-image.jpg);
+    background-image:  url(images/about-me-image.1.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: cover;
+}
+#about-me-wraper text-wraper ul li{
+    padding: 10px;
+    border: solid 1px white;
 }
 
 
