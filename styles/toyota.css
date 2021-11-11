@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    background-color: #ffffff;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: rgb(12, 12, 12);
+/*    font-family: 'Abhaya Libre';*/
+	font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+/*UNIVERSAL-STYLE*/
+.container{
+    max-width: 1520px;
+    margin: auto;
+}
+.column{
+    display: flex;
+/*    height: 540px;*/
+}
+.column > div{
+    width: 50%;
+}
+
+.row{
+    display: flex;
+}
+
+.row > div{
+    width: 50%;
+}
+h2{
+    font-size: 45px;
+    font-weight: normal;
+    padding: 20px 0px;
+}
+p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+}
+.text p{
+    line-height: 30px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 90px 120px;
+}
+.text h6{
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+    font-weight: normal;
+    padding: 30px 0px;
+}
+.text-wraper button{
+    padding: 20px 40px;
+    background-color: inherit;
+    outline: none;
+    margin-top: 40px;
+    font-weight: bold;
+	border: solid 2px red;
+	color: yellow;
+}
+.text-wraper button:hover{
+    cursor: pointer;
+    background-color: red;
+    color: white;
+    transition: 0.4s;
+}
+.checked{
+    color: #ffca00;
+}
+
+
+
+/*HEADER with NAVBAR = HERO*/
+header{
+    background-image: url(images/car_hero.1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* height: 88vh; */
+}
+nav{
+	background-color: #050505bd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+nav button{
+    display: none;
+}
+#ul{
+    list-style-type: none;
+    display: flex;
+}
+li > a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Arial';
+    /* font-weight: bold; */
+    letter-spacing: 1px;
+    /* text-shadow: 4px 4px 4px rgb(0, 0, 0); */
+}
+#car_brand_navbar{
+    background-color: black;
+    padding: 0px;
+}
+#car_brand_navbar ul{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    list-style-type: none;
+}
+.dropdown{
+    padding: 0px;
+    /* position: relative; */
+}
+#car_brand_navbar ul li a{
+    color: white;
+    padding: 15px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.dropdown_content{
+    background-color: #050505bd;
+    position: absolute;
+    width: auto;
+    /* height: 0px; */
+    overflow: hidden;
+    display: none;
+}
+
+.dropdown_content a{
+    display: block;
+    border-bottom: solid 1px grey;
+    text-decoration: none;
+}
+
+.fa-chevron-down{
+    font-size: 12px;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown_content a:hover{
+    color: red!important;
+}
+
+
+
+
+/*INTRO*/
+.intro{
+/*    background-color: blueviolet;*/
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+}
+.intro > div{
+    text-align: center;
+}
+.intro h6{
+    font-size: 150%;
+    font-weight: normal;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: white;
+}
+.intro h1{
+    font-size: 500%;
+    font-weight: normal;
+    padding: 20px 0px;
+    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    color: white;
+}
+.intro button{
+    padding: 20px 40px;
+    background-color: rgb(255, 0, 0);
+    outline: none;
+    border: solid 2px rgb(0, 0, 0);
+	color: #ffffff;
+    margin-top: 40px;
+    font-weight: bold;
+}
+.intro button:hover{
+    cursor: pointer;
+    background-color: rgba(226, 0, 0, 1);
+    color: #fef002;
+    transition: 0.4s;
+}
+
+
+
+/*CONTACT-LINKS*/
+.contact-links{
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 0px;
+    margin-bottom: 90px;
+    font-family: 'Arial';
+    letter-spacing: 1px;
+    color: white;
+}
+.contact-links > div{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-links i{
+    font-size: 25px;
+    padding: 20px;
+}
