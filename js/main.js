@@ -11,3 +11,20 @@ function showMenu() {
 }
 
 
+$(document).ready(function(){
+    // window.alert('testS');
+});
+
+
+$('.dropdown').mouseover(function(){
+
+    this.style.backgroundColor = "red";
+    $('.dropdown_content[0]').style.height = "100px";
+
+});
+
+$('.dropdown').mouseout(function(){
+
+    this.style.backgroundColor = "";
+ });
+
