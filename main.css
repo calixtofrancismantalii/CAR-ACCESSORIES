@@ -6,7 +6,7 @@
 html{
     background-color: #ffffff;
     font-size: 16px;
-    font-weight: bold;
+    /* font-weight: bold; */
     color: rgb(12, 12, 12);
 /*    font-family: 'Abhaya Libre';*/
 	font-family: 'Poppins', sans-serif;
@@ -110,9 +110,9 @@ li > a{
     display: block;
     padding: 20px;
     font-family: 'Arial';
-    font-weight: bold;
+    /* font-weight: bold; */
     letter-spacing: 1px;
-    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+    /* text-shadow: 4px 4px 4px rgb(0, 0, 0); */
 }
 #car_brand_navbar{
     background-color: black;
