@@ -126,7 +126,7 @@ li > a{
 }
 .dropdown{
     padding: 0px;
-    position: relative;
+    /* position: relative; */
 }
 #car_brand_navbar ul li a{
     color: white;
@@ -135,28 +135,31 @@ li > a{
     cursor: pointer;
 }
 
-#car_brand_navbar ul li > a:hover + .dropdown_content {
-    background-color: red;
-    display: block;
-}
-
-
 .dropdown_content{
     background-color: #050505bd;
     position: absolute;
-    width: 100%;
+    width: auto;
     /* height: 0px; */
     overflow: hidden;
     display: none;
 }
 
-.dropdown_content a:hover + .dropdown{
-   background-color: grey;
-   display: block;
-}
 .dropdown_content a{
-display: block;
-border-bottom: solid 1px grey;
+    display: block;
+    border-bottom: solid 1px grey;
+    text-decoration: none;
+}
+
+.fa-chevron-down{
+    font-size: 12px;
+}
+
+.dropdown:hover .dropdown_content {
+    display: block;
+}
+
+.dropdown_content a:hover{
+    color: red!important;
 }
 
 
