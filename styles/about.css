@@ -25,6 +25,12 @@ html{
     max-width: 1910px;
     margin: auto;
 }
+
+.container2{
+    max-width: 1100px;
+    margin: auto;
+}
+
 .column{
     display: flex;
 /*    height: 540px;*/
@@ -210,7 +216,13 @@ li > a{
 
 /*COMPANY PROFILE*/
 #company_profile{
-    background-color: blue;
+/*    background-color: blue;*/
+}
+
+#company_profile .text-wrapper{
+	line-height: 13px;
+	padding-top: 50px;
+	text-align: justify;
 }
 
 /*SECTION-TWO*/
@@ -220,7 +232,7 @@ li > a{
     
 }
 #section-two-image{
-    background-image: url(../images/about-me-image.jpg);
+    background-image: url(../images/rann_logo_company_profile.jpg);
     background-repeat: no-repeat;
     background-position: right;
     background-size: contain;
@@ -238,10 +250,24 @@ li > a{
     display: flex;
     padding: 50px 0px;
 }
-.paragraphs > div{
-    width: 50%;
+.paragraphs > #name{
+    width: 30%;
     margin: 0px 10px;
 }
+
+.paragraphs > #value{
+    width: 70%;
+    margin: 0px 10px;
+}
+
+.paragraphs  div ul{
+   list-style-type: none
+}
+
+.paragraphs  div ul li{
+   padding: 10px 0px
+}
+
 .companylogo{
     padding: 50px 0px;
     width: 100%;
@@ -253,16 +279,30 @@ li > a{
 
 /*SECTION-THREE*/
 #section-three{
-    padding: 80px 0px;
+    padding: 0px 0px;
 }
 #section-three .text-wrapper{
     padding: 0px 150px;
     text-align: center;
 }
+
+#section-three .text-wrapper ul{
+    list-style-type: none;
+	padding: 50px 0px
+} 
+
+#section-three .text-wrapper ul li{
+    padding: 10px
+} 
+
 #certificates{
     display: flex;
     justify-content: space-evenly;
     padding: 100px 0px;
+}
+
+#company_profile ol li{
+	padding: 10px;
 }
 
 
